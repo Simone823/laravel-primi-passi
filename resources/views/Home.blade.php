@@ -79,7 +79,7 @@
                 </li>
 
                 <li>
-                    <a href="http://">About me</a>
+                    <a href="{{route('AboutMe')}}">About me</a>
                 </li>
 
                 <li>
