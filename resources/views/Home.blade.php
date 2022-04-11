@@ -11,12 +11,14 @@
 
         <!-- Styles -->
         <style>
-            body {
-                background-color: #fff;
-                font-family: 'Nunito', sans-serif;
+            *{
                 margin: 0;
                 padding: 0;
                 box-sizing: border-box;
+            }
+            body {
+                background-color: #fff;
+                font-family: 'Nunito', sans-serif;
                 height: 100vh;
                 display: flex;
                 flex-direction: column;
@@ -28,7 +30,7 @@
                 align-items: center;
                 justify-content: center;
                 background-color: rgb(31, 31, 31);
-                padding: 10px 0;
+                padding: 20px 0;
             }
 
             .menu {
@@ -84,7 +86,7 @@
                 </li>
 
                 <li>
-                    <a href="http://">Portfolio</a>
+                    <a href="{{route('Portfolio')}}">Portfolio</a>
                 </li>
 
                 <li>
