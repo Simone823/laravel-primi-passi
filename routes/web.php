@@ -23,3 +23,8 @@ Route::get('/', function () {
 Route::get('/AboutMe', function () {
     return view('AboutMe');
 })->name('AboutMe');
+
+// Route portfolio
+Route::get('/Portfolio', function () {
+    return view('Portfolio');
+})->name('Portfolio');
