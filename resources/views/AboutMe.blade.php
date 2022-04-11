@@ -11,6 +11,11 @@
 
         <!-- Styles -->
         <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
             img {
                 width: 100%;
                 height: 100%;
@@ -20,9 +25,6 @@
             body {
                 background-color: #fff;
                 font-family: 'Nunito', sans-serif;
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
                 height: 100vh;
                 display: flex;
                 flex-direction: column;
@@ -34,7 +36,7 @@
                 align-items: center;
                 justify-content: center;
                 background-color: rgb(31, 31, 31);
-                padding: 10px 0;
+                padding: 20px 0;
             }
 
             .menu {
@@ -61,7 +63,7 @@
             main {
                 flex-grow: 1;
                 background-color: rgb(70, 70, 70);
-                padding: 40px 25px;
+                padding: 50px 25px;
             }
 
             .wrapper {
@@ -80,6 +82,10 @@
 
             .description {
                 text-align: center;
+            }
+
+            .description .name {
+                margin-bottom: 10px;
             }
 
             .active {
@@ -103,7 +109,7 @@
                 </li>
 
                 <li>
-                    <a href="http://">Portfolio</a>
+                    <a href="{{route('Portfolio')}}">Portfolio</a>
                 </li>
 
                 <li>
