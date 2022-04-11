@@ -57,7 +57,7 @@
             main {
                 flex-grow: 1;
                 background-color: rgb(70, 70, 70);
-                padding: 20px 25px;
+                padding: 50px 25px;
             }
 
             main h1 {
