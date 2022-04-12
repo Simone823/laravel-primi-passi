@@ -28,3 +28,8 @@ Route::get('/AboutMe', function () {
 Route::get('/Portfolio', function () {
     return view('Portfolio');
 })->name('Portfolio');
+
+// Route contact
+Route::get('/Contact', function () {
+    return view('Contact');
+})->name('Contact');

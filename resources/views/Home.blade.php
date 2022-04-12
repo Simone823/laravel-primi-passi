@@ -90,7 +90,7 @@
                 </li>
 
                 <li>
-                    <a href="http://">Contact</a>
+                    <a href="{{route('Contact')}}">Contact</a>
                 </li>
             </ul>
 
